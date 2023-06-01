@@ -167,8 +167,6 @@
 			const { slip } = await response.json();
 			adviceID.textContent = slip.id;
 			adviceText.textContent = slip.advice;
-			console.log("am i clicking?");
-			console.log(slip);
 		};
 		window.onload = getAdvice();
 	</script>
